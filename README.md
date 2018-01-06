@@ -28,7 +28,8 @@ This is an attempt to categorise different APIs scoured from the web which make 
 - [Face Recognition](#face-recognition)
 - [File Storage and Manipulation](#file-storage-and-manipulation)
 - [Finance](#finance)
-- [Fitness](#fitness)
+- [Fitness
+](#fitness)
 - [Google](#google)
 - [Identity Verification](#identity-verification)
 - [Image Moderation](#image-moderation)
@@ -147,6 +148,7 @@ APIs
 ### Communication
 
 - [Exotel](https://exotel.in/) - Exotel is a cloud telephony service provider for small and medium enterprises in India. Free 15-day trial.💸
+- [Africa's Talking](https://africastalking.com/) - Access African telco services through a HTTP API.💸
 
 ### Content
 
@@ -180,7 +182,6 @@ APIs
 
 ### Entertainment
 
-- [BBC](http://www.bbc.co.uk/developer/technology/apis.html) - Variety of BBC APIs with access to interesting data from Radio Labs, programs played on BBC and linking data around the artist played on BBC.
 - [Comic Vine](http://comicvine.gamespot.com/api/) - An extremely mature, well organized and continuely updated resource of comic information.
 - [Comichron Data](https://github.com/comichron-data/api) - API for comic sales data from comichron.com. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
 - [Danbooru](https://danbooru.donmai.us/posts?tags=help%3Aapi) - Get images cartegorized by tags.
@@ -210,6 +211,20 @@ APIs
 
 ### Finance
 - [IEX](https://iextrading.com/developer/) - Free Stocks and Market Data
+- Central Banks
+ - [Australia](https://www.rba.gov.au/statistics/tables/) - plenty of kinds of data in CSV format.
+ - [Canada](https://www.bankofcanada.ca/rates/) - daily exchange rates and statistical data tables in CSV, XML or JSON formats.
+ - [EU](https://sdw-wsrest.ecb.europa.eu/web/generator/index.html#tabData) - variety of data is available via REST API.
+ - [Georgia](https://nbg.gov.ge/api.html) - currency exchange rates available via SOAP API.
+ - [Ireland](https://data.gov.ie/data/search?publisher=central-bank-of-ireland) - variety of data mainly in [XLS](https://en.wikipedia.org/wiki/Microsoft_Excel#File_formats) format.
+ - [Myanmar](http://forex.cbm.gov.mm/api/) - currency exchange rates in JSON format.
+ - [Moldova](https://bnm.md/en/content/official-exchange-rates) - currency exchange rates in XML, JSON and XLS formats.
+ - [New Zealand](https://www.rbnz.govt.nz/statistics) - variety of data in XLS format.
+ - [Nigeria](https://www.cbn.gov.ng/rates/) - not only exchange rates, but also other info in CSV format.
+ - [Peru](http://www.bcrp.gob.pe/statistics.html) - variety of data in [XLSX](https://en.wikipedia.org/wiki/Microsoft_Excel#File_formats) format.
+ - RF - variety of data via [REST XML](https://www.cbr.ru/scripts/Root.asp?PrtId=SXML) and [SOAP](https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx) APIs. Some data is available only via the RESTful one, some is only via the SOAP one.
+ - [Switzerland](https://data.snb.ch/en) - rich variety of datan in XLS and CSV formats.
+ - [Ukraine](https://bank.gov.ua/control/en/publish/article?art_id=25365630) - exchange rates and bond placements in JSON and XML formats.
 
 ### Fitness
 
@@ -260,6 +275,13 @@ APIs
 - [Xively](https://developer.xively.com/reference) - Uses free and open libraries to let you connect different types of hardware, using a variety of languages to their cloud service.
 - [Zetta](http://www.zettajs.org/) - An open source platform built on Node.js for creating IoT servers that run across geo-distributed computers and the cloud. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
 
+### Legal
+#### Open Licenses
+
+- [GitHub Licenses API](https://developer.github.com/v3/licenses/)
+- [ToSDR terms of service API](https://tosdr.org/api.html)
+- [TLDRLegal Licenses API](https://tldrlegal.com/api/license)
+
 ### Login Authentication
 
 - [Auth0](https://auth0.com) - Authenticate and authorize apps and APIs with any identity provider running on any stack any device or cloud. Free for 700 active users.
@@ -279,7 +301,7 @@ APIs
 - [Amazon MI API](http://docs.aws.amazon.com/machine-learning/latest/APIReference/Welcome.html) - Amazon Machine Learning API simplifies the process of making predictions that require lots of expertise around model building, data cleansing and statistical analysis.
 - [AYLIEN](http://aylien.com/) - AYLIEN Text Analysis API is a package of Natural Language Processing, Information Retrieval and Machine Learning tools for extracting meaning and insight from textual and visual content with ease.
 - [Big ML](http://bigml.com/api/) - BigML is user-friendly and developer-friendly Machine learning API that mainly concentrates on decision trees.
-- [Google Prediction API](https://cloud.google.com/prediction/docs) - Cloud-based machine learning and pattern matching tool.
+- [Cloud Machine Learning Engine](https://cloud.google.com/ml-engine/docs/) - Cloud-based machine learning and pattern matching tool.
 - [IBM Watson](https://developer.ibm.com/watson/) - Simplifies the process of preparing data and makes it easier to run predictive analysis.
 - [Microsoft Azure Machine Learning API](https://azure.microsoft.com/en-us/services/cognitive-services/) - Helps data scientists publish in minutes which once used to take days after they had developed a feasible model.
 - [Unplugg](http://unplu.gg/test_api.html) - Automated Forecasting API for timeseries data which can be used to forecast energy consumption, temperature, or any other timeseries data which has some seasonality effect.
@@ -312,6 +334,7 @@ APIs
 
 ### Miscellaneous
 - [Aadhaar Bridge](https://www.aadhaarbridge.com/) - Aadhaar is a 12-digit unique identification number issued by the Indian government to every individual resident of India. API allows you to authenticate and perform ekYC and eSign using Aadhar. 💸
+- [ApiLeap](https://apileap.com/) - Chrome based screenshot API to convert URLs & HTML to images.
 - [Callook.info](https://callook.info) - Look up information about United States ham radio callsigns.
 - [ChuckNorris.io](https://api.chucknorris.io) - A free JSON API for hand curated Chuch Norris facts. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
 - [Domainsdb.info](https://domainsdb.info) - Registered domain names search checks the lists of registered domains for names containing particular words/phrases/numbers or symbols.
@@ -321,6 +344,7 @@ APIs
 - [JSONbin.io](https://jsonbin.io/api-reference) - Free JSON data storage service, ideal for small scale web apps, website, mobile apps.
 - [Judge0 API](https://api.judge0.com/) - Compile and run source code. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
 - [Labs64 NetLicensing](https://www.labs64.de/confluence/x/pwCo) ([API Test Center](http://io.labs64.com/NetLicensing-API/)) - Innovative License Management Solution.
+- [LaunchLibrary](https://launchlibrary.net/docs/1.3/api.html) - Aggregated info about space launches.
 - [LetsValidate](https://github.com/letsvalidate/api) - Uncovers the technologies used on websites and URL to thumbnail.
 - [Marijuana Strain API](http://strains.evanbusse.com/) - Documentation on over 2000 Marijuana strains including races, flavors, and effects.
 - [Pastebin](http://pastebin.com/api) - Quickly share text or code, with support for over 250 languages for syntax highlighting.
@@ -386,14 +410,16 @@ APIs
 ### Natural Language Processing
 
 - [AlchemyAPI - IBM Company](http://www.alchemyapi.com/api) - Uses NLP and ML algorithms to extract semantic meta-data from content.
-- [API AI](https://docs.api.ai/) - Natural Language Interactions for Bots, Applications, Services, and Devices
+- [DialogFlow](https://dialogflow.com/) - Natural Language Interactions for Bots, Applications, Services, and Devices
 - [Datum Box](http://www.datumbox.com/machine-learning-api/) - Datumbox offers a powerful open-source Machine Learning Framework written in Java. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
 - [LUIS AI](https://www.luis.ai/) - Language Understanding Intelligent Service offers a fast and effective way of adding language understanding to applications.
-- [Open Calais](http://www.opencalais.com/opencalais-api/) - Good entity extraction, no sentiment analysis.
+- [Open Calais](http://www.opencalais.com/opencalais-api/) - Good entity extraction, no sentiment analysis. 
+- [Recast.AI](https://recast.ai) - Recast.AI provide an NLP API for text analysis and entity extraction. Recast.AI is the leading platform to build, connect and monitor bots.
 - [Semantria](https://www.lexalytics.com/) - SAAS API based on Lexalytics engine. #Paid
 - [TextRazor](https://www.textrazor.com/plans) - Helps you extract and understand the Who, What, Why, and How from your supplied text. #FreeToUse
 - [VoiceRSS](http://www.voicerss.org/) - An API to convert Text to Speech, supporting 15+ major languages.
 - [Wit AI](https://wit.ai/) - Provides an intent-based NLP API to easily build text and audio based chat bots. ![Open Source](https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/opensource.png "Open Source")
+- [Word Associations API](https://wordassociations.net/en/api) - Provides service to get associations for a word or phrase. Words are grouped by semantics, meaning, and psychological perception.
 
 ### Placeholder Images
 
@@ -423,6 +449,7 @@ APIs
 
 - [FavQs](https://favqs.com/api) - FavQs allows you to collect, discover, and share your favorite quotes.
 - [Forismatic](http://api.forismatic.com/api/1.0/) - Gives you a random quote per click.
+- [Quotes on Design](https://quotesondesign.com/api-v4-0/) - Gives a random design quote by a famous personality.
 - [They Said So](http://quotes.rest/qod.json?category=inspire) - Gives you a random quote per day.
 
 ### Retail
